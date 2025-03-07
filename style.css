@@ -1,0 +1,143 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilo para o h1 e o p dentro da seção #sobre */
+#sobre h1 {
+    margin-bottom: 20px; /* Define o espaço abaixo do h1 */
+}
+
+#sobre p {
+    margin-top: 10px; /* Define o espaço acima do p */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Habilidades */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px;
+}
+
+/* Projetos */
+.projeto {
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    color: #333;
+}
+
+/* Contato */
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Barra de habilidades */
+.skill-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+/* Preenchimento da barra */
+.skill-fill {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0; /* Começa com 0%, e é ajustado no HTML */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* Animação suave */
+}
+
+a {
+    color: #0066cc;  /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando passar o mouse */
+    color: #004a99;  /* Muda a cor quando o mouse passar sobre o link */
+}
+
+.projeto h3 {
+    margin-bottom: 15px; /* Adiciona espaçamento abaixo do título */
+}
+
+.projeto p {
+    margin-bottom: 15px; /* Adiciona espaçamento abaixo do parágrafo */
+}
+
+.projeto a {
+    margin-top: 10px; /* Adiciona um pequeno espaçamento acima do link */
+    display: inline-block; /* Torna o link um bloco para que o espaçamento seja aplicado corretamente */
+}
+
+#projetos h2 {
+    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+}
